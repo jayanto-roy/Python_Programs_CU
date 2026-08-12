@@ -33,3 +33,13 @@ if text.capitalize() == reverse.capitalize():
     print("The text is a Palindrome.")
 else:
     print("The text is not a Palindrome.")
+
+
+# MADAM → MADAM 
+# LEVEL → LEVEL
+# RADAR → RADAR
+# MOM → MOM
+# WOW → WOW
+# NOON → NOON
+# CIVIC → CIVIC
+# REFER → REFER
