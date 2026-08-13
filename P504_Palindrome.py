@@ -17,6 +17,18 @@ if original == reverse:
 else:
     print("The number is not a Palindrome.")
 
+# Program to reverse a number and check palindrome
+
+number = input("Enter a number: ")
+
+reverse = number[::-1]
+
+print("Reversed number:", reverse)
+
+if number == reverse:
+    print("The number is a Palindrome.")
+else:
+    print("The number is not a Palindrome.")
 
 # Program to reverse a text and check palindrome
 
