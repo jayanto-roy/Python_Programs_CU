@@ -1,15 +1,15 @@
 text = "Python is Easy"
-
-print("Original:", text)
-
+print("Original String:", text)
+# upper()
 print("Uppercase:", text.upper())
-
+# lower()
 print("Lowercase:", text.lower())
-
+# split()
 words = text.split()
-print("After split:", words)
-
-joined = "-".join(words)
-print("After join:", joined)
-
-print("After replace:", text.replace("Easy", "Powerful"))
+print("After split():", words)
+# join()
+joined_text = "-".join(words)
+print("After join():", joined_text)
+# replace()
+new_text = text.replace("Easy", "Powerful")
+print("After replace():", new_text)
