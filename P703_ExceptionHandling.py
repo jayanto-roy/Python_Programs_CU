@@ -14,3 +14,5 @@ except ZeroDivisionError:
 
 except ValueError:
     print("Error: Please enter valid numbers.")
+finally:
+    print("Welcome, If you in")
