@@ -1,23 +1,23 @@
 employees = {}
 
 while True:
-    print("\n--- Employee Management System ---")
+    print("\n ---- Employee Management System----")
     print("1. Add Employee")
     print("2. Update Salary")
-    print("3. Delete Employee")
-    print("4. Display Employees")
+    print("3. Delete Emplyee")
+    print("4. Diplay Employees")
     print("5. Exit")
 
-    choice = int(input("Enter your choice: "))
+    choice = int(input("Enter your Choice : "))
 
     if choice == 1:
         emp_id = input("Enter Employee ID: ")
-        name = input("Enter Employee Name: ")
-        salary = float(input("Enter Salary: "))
+        name = input(("Enter Employee Name: "))
+        salary = float(input("ENter Salary: "))
 
         employees[emp_id] = {
-            "Name": name,
-            "Salary": salary
+            "Name" : name,
+            "Salary" : salary,
         }
 
         print("Employee added successfully.")
@@ -25,21 +25,22 @@ while True:
     elif choice == 2:
         emp_id = input("Enter Employee ID: ")
 
-        if emp_id in employees:
+        if emp_id in employees: 
             salary = float(input("Enter new salary: "))
             employees[emp_id]["Salary"] = salary
             print("Salary updated successfully.")
-        else:
+
+        else: 
             print("Employee not found.")
 
     elif choice == 3:
-        emp_id = input("Enter Employee ID: ")
+        emp_id = input("Enter Empoloyee ID: ")
 
-        if emp_id in employees:
+        if emp_id in employees: 
             del employees[emp_id]
             print("Employee deleted successfully.")
         else:
-            print("Employee not found.")
+            print("Employee ont found.")
 
     elif choice == 4:
         print("\nEmployee Details:")
@@ -52,4 +53,7 @@ while True:
         break
 
     else:
-        print("Invalid choice!")
+        print("Invalid Choice!")
+
+
+
