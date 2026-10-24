@@ -1,0 +1,5 @@
+Country	Matches Won
+India		5
+Australia		4
+England		3
+Bangladesh		2
